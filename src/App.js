@@ -46,7 +46,7 @@ function ParticipantView(props) {
           pip={false}
           light={false}
           controls={false}
-          muted={true}
+          muted={false}
           playing={true}
           url={videoStream}
           height={"300px"}
@@ -100,7 +100,7 @@ const App = () => {
         meetingId: "jy3m-ehm6-ko32",
         micEnabled: true,
         webcamEnabled: true,
-        name: "Ankit's Org",
+        name: "Vizo's Org",
       }}
       token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiI1NTIyZmIyZi0xOGU0LTRmN2YtOGNhNy04MTVhNjlhNGYyZDgiLCJwZXJtaXNzaW9ucyI6WyJhbGxvd19qb2luIl0sImlhdCI6MTcwODU3NDAyNywiZXhwIjoxNzA4NjYwNDI3fQ.LO8r2nhG1THPeMvyAGDKzw3yKtNEG8P_d8x4gKTpW8c"
     >
